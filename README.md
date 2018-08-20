@@ -5,7 +5,7 @@ How to use:
 1)add TokenAuthinticator class  to  your OkHttpClient client 
 
 2)add AuthInterceptor instance  to  your OkHttpClient client 
-
+```kotlin
     protected OkHttpClient provideOkHttpClient(Context context,
                                                       HttpLoggingInterceptor loggingInterceptor,
                                                       AuthInterceptor authInterceptor,
@@ -21,3 +21,4 @@ How to use:
                 .writeTimeout(writeTimeout, TimeUnit.SECONDS)
                 .build();
     }
+    ```
