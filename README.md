@@ -21,5 +21,4 @@ How to use:
                 .writeTimeout(writeTimeout, TimeUnit.SECONDS)
                 .build();
     }
-    
-    ```
+
